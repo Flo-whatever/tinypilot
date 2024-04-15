@@ -15,16 +15,15 @@ button,
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: var(--border-radius);
-  border: 1px solid var(--brand-metallic-medium);
-  background: var(--brand-metallic-light)
-    linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 60%);
+  border: 1px solid grey;
+  background: grey);
 }
 
 button:hover,
 .btn:hover,
 button:focus,
 .btn:focus {
-  background-color: var(--brand-metallic-bright);
+  background-color: grey;
 }
 
 button:focus,
